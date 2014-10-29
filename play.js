@@ -29,6 +29,14 @@ function checkEnd(state) {
 }
 
 //Returns array of possible moves for the player this turn
-function generateMoves(state, player) {
-  
+function generateMoves(state, color) {
+  var states = [];
+
+  for(var i = 0; i < 7; i++)
+  {
+    if(state[0][i] == null)
+    { 
+      states.push(play(state, i, color);
+    }
+  }
 }
