@@ -14,7 +14,7 @@ function play(state, column, color)
 }
 
 //Returns a number
-function eval(state)
+function eval(state){
 {
 
 }
@@ -29,4 +29,9 @@ function eval(state)
 function checkEnd(state)
 {
 
+}
+
+//Returns array of possible moves for the player this turn
+function generateMoves(state, player) {
+  
 }
