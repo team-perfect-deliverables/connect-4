@@ -2,7 +2,7 @@
 
 function play(state, column, color) {
   var depth = 0;
-  while(state[depth][column] == null) {
+  while(state[depth][column] == undefined) {
     depth++; 
   }
 
@@ -34,7 +34,7 @@ function generateMoves(state, color) {
 
   for(var i = 0; i < 7; i++)
   {
-    if(state[0][i] == null)
+    if(state[0][i] == undefined)
     { 
       states.push(play(state, i, color);
     }
