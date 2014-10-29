@@ -12,3 +12,9 @@ function play(state, column, color)
   
   return state;
 }
+
+//Returns a number
+function eval(state)
+{
+
+}
