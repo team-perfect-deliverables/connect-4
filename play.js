@@ -1,22 +1,29 @@
 
 
-function main()
-{
+function main() {
 
 }
 
-function minimax(state)
-{
+function minimax(state) {
 
 }
 
-function maxValue(state)
-{
+function maxValue(state, depth) {
+  int max = -9000;
 
+  if(depth == 5) {
+    return max;
+  }
+  else {
+    var moves = generateMoves(state);
+    for(move in moves)
+    {
+      var val = eval(state, 
+    }
+  }
 }
 
-function minValue(state)
-{
+function minValue(state, depth) {
 
 }
 
