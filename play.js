@@ -2,12 +2,12 @@
 
 function play(state, column, color) {
   var depth = 0;
-  while(state[depth][column] == undefined || depth < 6) {
+  while(state[column][depth] == undefined || depth < 6) {
     depth++; 
   }
 
   var newState = state.slice();
-  newState[depth - 1][column] = color;
+  newState[column][depth - 1] = color;
   
   return newState;
 }
@@ -34,7 +34,7 @@ function generateMoves(state, color) {
 
   for(var i = 0; i < 7; i++)
   {
-    if(state[0][i] == undefined)
+    if(state[i][0] == undefined)
     { 
       states.push(play(state, i, color);
     }
