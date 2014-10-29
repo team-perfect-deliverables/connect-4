@@ -6,9 +6,10 @@ function play(state, column, color) {
     depth++; 
   }
 
-  state[depth - 1][column] = color;
+  var newState = state.slice();
+  newState[depth - 1][column] = color;
   
-  return state;
+  return newState;
 }
 
 //Returns a number
