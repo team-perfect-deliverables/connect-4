@@ -1,10 +1,8 @@
 
 
-function play(state, column, color)
-{
+function play(state, column, color) {
   var depth = 0;
-  while(state[depth][column] == null)
-  {
+  while(state[depth][column] == null) {
     depth++; 
   }
 
@@ -14,8 +12,7 @@ function play(state, column, color)
 }
 
 //Returns a number
-function eval(state){
-{
+function eval(state) {
 
 }
 
@@ -26,8 +23,7 @@ function eval(state){
 //3 = tie
 //
 //Not sure if we really need this
-function checkEnd(state)
-{
+function checkEnd(state) {
 
 }
 
