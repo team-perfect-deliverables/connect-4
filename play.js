@@ -2,7 +2,7 @@
 
 function play(state, column, color) {
   var depth = 0;
-  while(state[depth][column] == undefined) {
+  while(state[depth][column] == undefined || depth < 6) {
     depth++; 
   }
 
