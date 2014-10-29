@@ -1,5 +1,25 @@
 
 
+function main()
+{
+
+}
+
+function minimax(state)
+{
+
+}
+
+function maxValue(state)
+{
+
+}
+
+function minValue(state)
+{
+
+}
+
 function play(state, column, color) {
   var depth = 0;
   while(state[column][depth] == undefined || depth < 6) {
